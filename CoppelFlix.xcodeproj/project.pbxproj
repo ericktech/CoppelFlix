@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84A08E0A2874D4A50025629A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A08E092874D4A50025629A /* AppDelegate.swift */; };
+		84A08E0C2874D4A50025629A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A08E0B2874D4A50025629A /* SceneDelegate.swift */; };
+		84A08E0E2874D4A50025629A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A08E0D2874D4A50025629A /* ViewController.swift */; };
+		84A08E112874D4A50025629A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A08E0F2874D4A50025629A /* Main.storyboard */; };
+		84A08E142874D4A50025629A /* CoppelFlix.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84A08E122874D4A50025629A /* CoppelFlix.xcdatamodeld */; };
+		84A08E162874D4A70025629A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A08E152874D4A70025629A /* Assets.xcassets */; };
+		84A08E192874D4A70025629A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A08E172874D4A70025629A /* LaunchScreen.storyboard */; };
+		84A08E242874D4A70025629A /* CoppelFlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A08E232874D4A70025629A /* CoppelFlixTests.swift */; };
+		84A08E2E2874D4A70025629A /* CoppelFlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A08E2D2874D4A70025629A /* CoppelFlixUITests.swift */; };
+		84A08E302874D4A70025629A /* CoppelFlixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A08E2F2874D4A70025629A /* CoppelFlixUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84A08E202874D4A70025629A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A08DFE2874D4A50025629A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84A08E052874D4A50025629A;
+			remoteInfo = CoppelFlix;
+		};
+		84A08E2A2874D4A70025629A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A08DFE2874D4A50025629A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84A08E052874D4A50025629A;
+			remoteInfo = CoppelFlix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84A08E062874D4A50025629A /* CoppelFlix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoppelFlix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A08E092874D4A50025629A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84A08E0B2874D4A50025629A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84A08E0D2874D4A50025629A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84A08E102874D4A50025629A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84A08E132874D4A50025629A /* CoppelFlix.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoppelFlix.xcdatamodel; sourceTree = "<group>"; };
+		84A08E152874D4A70025629A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84A08E182874D4A70025629A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84A08E1A2874D4A70025629A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A08E1F2874D4A70025629A /* CoppelFlixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoppelFlixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A08E232874D4A70025629A /* CoppelFlixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoppelFlixTests.swift; sourceTree = "<group>"; };
+		84A08E292874D4A70025629A /* CoppelFlixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoppelFlixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A08E2D2874D4A70025629A /* CoppelFlixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoppelFlixUITests.swift; sourceTree = "<group>"; };
+		84A08E2F2874D4A70025629A /* CoppelFlixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoppelFlixUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84A08E032874D4A50025629A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A08E1C2874D4A70025629A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A08E262874D4A70025629A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84A08DFD2874D4A50025629A = {
+			isa = PBXGroup;
+			children = (
+				84A08E082874D4A50025629A /* CoppelFlix */,
+				84A08E222874D4A70025629A /* CoppelFlixTests */,
+				84A08E2C2874D4A70025629A /* CoppelFlixUITests */,
+				84A08E072874D4A50025629A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84A08E072874D4A50025629A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84A08E062874D4A50025629A /* CoppelFlix.app */,
+				84A08E1F2874D4A70025629A /* CoppelFlixTests.xctest */,
+				84A08E292874D4A70025629A /* CoppelFlixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84A08E082874D4A50025629A /* CoppelFlix */ = {
+			isa = PBXGroup;
+			children = (
+				84A08E092874D4A50025629A /* AppDelegate.swift */,
+				84A08E0B2874D4A50025629A /* SceneDelegate.swift */,
+				84A08E0D2874D4A50025629A /* ViewController.swift */,
+				84A08E0F2874D4A50025629A /* Main.storyboard */,
+				84A08E152874D4A70025629A /* Assets.xcassets */,
+				84A08E172874D4A70025629A /* LaunchScreen.storyboard */,
+				84A08E1A2874D4A70025629A /* Info.plist */,
+				84A08E122874D4A50025629A /* CoppelFlix.xcdatamodeld */,
+			);
+			path = CoppelFlix;
+			sourceTree = "<group>";
+		};
+		84A08E222874D4A70025629A /* CoppelFlixTests */ = {
+			isa = PBXGroup;
+			children = (
+				84A08E232874D4A70025629A /* CoppelFlixTests.swift */,
+			);
+			path = CoppelFlixTests;
+			sourceTree = "<group>";
+		};
+		84A08E2C2874D4A70025629A /* CoppelFlixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84A08E2D2874D4A70025629A /* CoppelFlixUITests.swift */,
+				84A08E2F2874D4A70025629A /* CoppelFlixUITestsLaunchTests.swift */,
+			);
+			path = CoppelFlixUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84A08E052874D4A50025629A /* CoppelFlix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A08E332874D4A70025629A /* Build configuration list for PBXNativeTarget "CoppelFlix" */;
+			buildPhases = (
+				84A08E022874D4A50025629A /* Sources */,
+				84A08E032874D4A50025629A /* Frameworks */,
+				84A08E042874D4A50025629A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoppelFlix;
+			productName = CoppelFlix;
+			productReference = 84A08E062874D4A50025629A /* CoppelFlix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84A08E1E2874D4A70025629A /* CoppelFlixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A08E362874D4A70025629A /* Build configuration list for PBXNativeTarget "CoppelFlixTests" */;
+			buildPhases = (
+				84A08E1B2874D4A70025629A /* Sources */,
+				84A08E1C2874D4A70025629A /* Frameworks */,
+				84A08E1D2874D4A70025629A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84A08E212874D4A70025629A /* PBXTargetDependency */,
+			);
+			name = CoppelFlixTests;
+			productName = CoppelFlixTests;
+			productReference = 84A08E1F2874D4A70025629A /* CoppelFlixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84A08E282874D4A70025629A /* CoppelFlixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A08E392874D4A70025629A /* Build configuration list for PBXNativeTarget "CoppelFlixUITests" */;
+			buildPhases = (
+				84A08E252874D4A70025629A /* Sources */,
+				84A08E262874D4A70025629A /* Frameworks */,
+				84A08E272874D4A70025629A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84A08E2B2874D4A70025629A /* PBXTargetDependency */,
+			);
+			name = CoppelFlixUITests;
+			productName = CoppelFlixUITests;
+			productReference = 84A08E292874D4A70025629A /* CoppelFlixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84A08DFE2874D4A50025629A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					84A08E052874D4A50025629A = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					84A08E1E2874D4A70025629A = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 84A08E052874D4A50025629A;
+					};
+					84A08E282874D4A70025629A = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 84A08E052874D4A50025629A;
+					};
+				};
+			};
+			buildConfigurationList = 84A08E012874D4A50025629A /* Build configuration list for PBXProject "CoppelFlix" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84A08DFD2874D4A50025629A;
+			productRefGroup = 84A08E072874D4A50025629A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84A08E052874D4A50025629A /* CoppelFlix */,
+				84A08E1E2874D4A70025629A /* CoppelFlixTests */,
+				84A08E282874D4A70025629A /* CoppelFlixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84A08E042874D4A50025629A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A08E192874D4A70025629A /* LaunchScreen.storyboard in Resources */,
+				84A08E162874D4A70025629A /* Assets.xcassets in Resources */,
+				84A08E112874D4A50025629A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A08E1D2874D4A70025629A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A08E272874D4A70025629A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84A08E022874D4A50025629A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A08E0E2874D4A50025629A /* ViewController.swift in Sources */,
+				84A08E142874D4A50025629A /* CoppelFlix.xcdatamodeld in Sources */,
+				84A08E0A2874D4A50025629A /* AppDelegate.swift in Sources */,
+				84A08E0C2874D4A50025629A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A08E1B2874D4A70025629A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A08E242874D4A70025629A /* CoppelFlixTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A08E252874D4A70025629A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A08E302874D4A70025629A /* CoppelFlixUITestsLaunchTests.swift in Sources */,
+				84A08E2E2874D4A70025629A /* CoppelFlixUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84A08E212874D4A70025629A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84A08E052874D4A50025629A /* CoppelFlix */;
+			targetProxy = 84A08E202874D4A70025629A /* PBXContainerItemProxy */;
+		};
+		84A08E2B2874D4A70025629A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84A08E052874D4A50025629A /* CoppelFlix */;
+			targetProxy = 84A08E2A2874D4A70025629A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84A08E0F2874D4A50025629A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A08E102874D4A50025629A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84A08E172874D4A70025629A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A08E182874D4A70025629A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84A08E312874D4A70025629A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84A08E322874D4A70025629A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84A08E342874D4A70025629A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5XH6YXBM7Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoppelFlix/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erick.CoppelFlix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84A08E352874D4A70025629A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5XH6YXBM7Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoppelFlix/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erick.CoppelFlix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84A08E372874D4A70025629A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5XH6YXBM7Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erick.CoppelFlixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoppelFlix.app/CoppelFlix";
+			};
+			name = Debug;
+		};
+		84A08E382874D4A70025629A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5XH6YXBM7Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erick.CoppelFlixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoppelFlix.app/CoppelFlix";
+			};
+			name = Release;
+		};
+		84A08E3A2874D4A70025629A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5XH6YXBM7Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erick.CoppelFlixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoppelFlix;
+			};
+			name = Debug;
+		};
+		84A08E3B2874D4A70025629A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5XH6YXBM7Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erick.CoppelFlixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoppelFlix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84A08E012874D4A50025629A /* Build configuration list for PBXProject "CoppelFlix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A08E312874D4A70025629A /* Debug */,
+				84A08E322874D4A70025629A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A08E332874D4A70025629A /* Build configuration list for PBXNativeTarget "CoppelFlix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A08E342874D4A70025629A /* Debug */,
+				84A08E352874D4A70025629A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A08E362874D4A70025629A /* Build configuration list for PBXNativeTarget "CoppelFlixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A08E372874D4A70025629A /* Debug */,
+				84A08E382874D4A70025629A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A08E392874D4A70025629A /* Build configuration list for PBXNativeTarget "CoppelFlixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A08E3A2874D4A70025629A /* Debug */,
+				84A08E3B2874D4A70025629A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84A08E122874D4A50025629A /* CoppelFlix.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84A08E132874D4A50025629A /* CoppelFlix.xcdatamodel */,
+			);
+			currentVersion = 84A08E132874D4A50025629A /* CoppelFlix.xcdatamodel */;
+			path = CoppelFlix.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84A08DFE2874D4A50025629A /* Project object */;
+}
