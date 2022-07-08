@@ -25,18 +25,21 @@ class ViewController: UIViewController, MainViewDelegate {
             lblError.text = Msj
         }else{
             let storyBoard: UIStoryboard = UIStoryboard(name: "HomeStoryboard", bundle: nil)
-            let newViewController = storyBoard.instantiateViewController(withIdentifier: "HomeStoryboard") as! HomeViewController
-            newViewController.modalPresentationStyle = .fullScreen
-            newViewController.modalTransitionStyle = .crossDissolve
-            let navigationController = UINavigationController(rootViewController: newViewController)
-            self.present(navigationController, animated: true, completion: nil)
+            if let viewController = storyBoard.instantiateViewController(withIdentifier: "HomeStoryboard") as? HomeViewController{
+                let homeNavController = UINavigationController()
+                homeNavController.setViewControllers([viewController], animated: false)
+                (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(homeNavController);
+            }
+            
             
         }
     }
     @IBAction func btnLogin(_ sender: Any) {
         userInfo.Email = txtUsr.text ?? ""
-         userInfo.Password = txtPass.text ?? ""
-         mainViewPresenter.LogIn(userInfo: userInfo)
+        userInfo.Password = txtPass.text ?? ""
+        mainViewPresenter.LogIn(userInfo: userInfo)
+        
+        
     }
 }
 
