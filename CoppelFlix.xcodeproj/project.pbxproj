@@ -45,7 +45,7 @@
 		84FB781B2878E95F00D048C4 /* CompaniesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FB78192878E95F00D048C4 /* CompaniesCollectionViewCell.xib */; };
 		84FB781E2878F40900D048C4 /* MoviesFav+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB781C2878F40900D048C4 /* MoviesFav+CoreDataClass.swift */; };
 		84FB781F2878F40900D048C4 /* MoviesFav+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB781D2878F40900D048C4 /* MoviesFav+CoreDataProperties.swift */; };
-		84FB78212878FD1900D048C4 /* CoppelFlix.md in Resources */ = {isa = PBXBuildFile; fileRef = 84FB78202878FD1900D048C4 /* CoppelFlix.md */; };
+		84FB78232878FE0600D048C4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 84FB78222878FE0600D048C4 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,7 +106,7 @@
 		84FB78192878E95F00D048C4 /* CompaniesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompaniesCollectionViewCell.xib; sourceTree = "<group>"; };
 		84FB781C2878F40900D048C4 /* MoviesFav+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MoviesFav+CoreDataClass.swift"; path = "../MoviesFav+CoreDataClass.swift"; sourceTree = "<group>"; };
 		84FB781D2878F40900D048C4 /* MoviesFav+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MoviesFav+CoreDataProperties.swift"; path = "../MoviesFav+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		84FB78202878FD1900D048C4 /* CoppelFlix.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CoppelFlix.md; sourceTree = "<group>"; };
+		84FB78222878FE0600D048C4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,7 +139,7 @@
 		84A08DFD2874D4A50025629A = {
 			isa = PBXGroup;
 			children = (
-				84FB78202878FD1900D048C4 /* CoppelFlix.md */,
+				84FB78222878FE0600D048C4 /* README.md */,
 				84A08E082874D4A50025629A /* CoppelFlix */,
 				84A08E222874D4A70025629A /* CoppelFlixTests */,
 				84A08E2C2874D4A70025629A /* CoppelFlixUITests */,
@@ -424,11 +424,11 @@
 			files = (
 				84FB78172878E82100D048C4 /* CompaiesTableViewCell.xib in Resources */,
 				84A08E192874D4A70025629A /* LaunchScreen.storyboard in Resources */,
-				84FB78212878FD1900D048C4 /* CoppelFlix.md in Resources */,
 				84A08E3E2874DE510025629A /* GoogleService-Info.plist in Resources */,
 				84A08E162874D4A70025629A /* Assets.xcassets in Resources */,
 				84FB78132878C5B700D048C4 /* MovieDetailTableViewCell.xib in Resources */,
 				84A08E112874D4A50025629A /* Main.storyboard in Resources */,
+				84FB78232878FE0600D048C4 /* README.md in Resources */,
 				84FB781B2878E95F00D048C4 /* CompaniesCollectionViewCell.xib in Resources */,
 				84ED39B5287645F600EC8468 /* HomeStoryboard.storyboard in Resources */,
 			);
