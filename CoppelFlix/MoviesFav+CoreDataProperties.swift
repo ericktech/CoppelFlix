@@ -2,7 +2,7 @@
 //  MoviesFav+CoreDataProperties.swift
 //  CoppelFlix
 //
-//  Created by BRM16031 on 07/07/22.
+//  Created by BRM16031 on 08/07/22.
 //
 //
 
@@ -21,6 +21,7 @@ extension MoviesFav {
     @NSManaged public var releaseDate: String?
     @NSManaged public var title: String?
     @NSManaged public var voteAverage: Double
+    @NSManaged public var idMovie: String?
 
 }
 

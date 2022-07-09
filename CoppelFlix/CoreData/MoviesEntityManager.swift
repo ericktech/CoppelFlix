@@ -30,6 +30,7 @@ class MovieEntityManager {
         movieContext.posterPath = movie.posterPath
         movieContext.releaseDate = movie.releaseDate
         movieContext.voteAverage = movie.voteAverage
+        movieContext.idMovie = movie.id.description
         do {
             try context.save()
         }catch{}

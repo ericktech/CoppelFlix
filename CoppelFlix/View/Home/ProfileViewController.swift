@@ -5,11 +5,13 @@
 import UIKit
 
 protocol ProfileViewDelegate: NSObjectProtocol{
-    func getFavMovies(movies: [MoviesFav])
+    func FavMovies(movies: [MoviesFav])
 }
 
 class ProfileViewController: UIViewController, ProfileViewDelegate {
-    func getFavMovies(movies: [MoviesFav]) {
+
+    
+    func FavMovies(movies: [MoviesFav]) {
         self.movies = movies
         DispatchQueue.main.async {
             self.collectionView.reloadData()
@@ -32,7 +34,7 @@ class ProfileViewController: UIViewController, ProfileViewDelegate {
         collectionView.collectionViewLayout = UICollectionViewFlowLayout()
         let flowLayout = collectionView.collectionViewLayout as! UICollectionViewFlowLayout
         flowLayout.scrollDirection = .horizontal
-        profilePresenter.getMovies()
+        profilePresenter.getFavMovies()
         
     }
     
@@ -61,6 +63,10 @@ extension ProfileViewController: UICollectionViewDelegateFlowLayout{
 
 extension ProfileViewController : UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        print(movies[indexPath.row])
+        let storyboard = UIStoryboard(name: "HomeStoryboard", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "DetailMovie") as! DetailMovieViewController
+        vc.movieId = movies[indexPath.row].idMovie ?? ""
+        navigationController?.pushViewController(vc,animated: true)
+        
     }
 }

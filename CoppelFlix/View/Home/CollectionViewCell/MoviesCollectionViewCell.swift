@@ -19,10 +19,14 @@ class MoviesCollectionViewCell: UICollectionViewCell {
     
     
     private let presenter = MoviesCollectionViewPresenter()
+    private weak var toastDelegate : ViewToastDelegate?
     
     private let imagePath = "https://image.tmdb.org/t/p/w500"
     private var resultMov = ResultMovie()
-
+    
+    func setDelegate(delegate:ViewToastDelegate){
+        self.toastDelegate = delegate
+    }
     
     
     func config(with movie: ResultMovie){
@@ -41,6 +45,7 @@ class MoviesCollectionViewCell: UICollectionViewCell {
     @objc func imageTapped(tapGestureRecognizer: UITapGestureRecognizer)
     {
         self.presenter.setFavMovie(movie: self.resultMov)
+        self.toastDelegate?.showToast(msj: "Añadido a favoritos")
     }
     
 }

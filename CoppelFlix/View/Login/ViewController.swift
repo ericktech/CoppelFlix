@@ -17,7 +17,12 @@ class ViewController: UIViewController, MainViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let tap = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
+        view.addGestureRecognizer(tap)
         mainViewPresenter.setViewDelegate(mainViewDelegate: self)
+    }
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
     }
     
     func LogIn(Valid: Bool, Msj: String) {

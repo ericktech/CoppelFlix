@@ -17,11 +17,22 @@ class ProfileViewPresenter {
     func setViewDelegate(delegate: ProfileViewDelegate){
         self.profileViewDelegate = delegate
     }
-
     
-    func getMovies(){
+    
+    func getFavMovies(){
         self.moviesService.getFavMovies(completion: {[weak self] result in
-            self?.profileViewDelegate?.getFavMovies(movies: result)
+            self?.profileViewDelegate?.FavMovies(movies: result)
+        })
+    }
+    func getMovieDetail(movieId:String){
+        self.moviesService.getMovie(movieId: movieId, completion: {[weak self] result in
+            switch result{
+            case .success(let movie) :
+                return
+            case .failure(let error ):
+                return
+            }
+            
         })
     }
 }
