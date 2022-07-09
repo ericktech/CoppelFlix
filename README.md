@@ -1,7 +1,7 @@
 
 
-# CoppelFlix
-## Erick Emmanuel Tamez Leal
+## CoppelFlix
+# by Erick Emmanuel Tamez Leal
 
 
 
