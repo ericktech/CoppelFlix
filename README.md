@@ -7,7 +7,9 @@
 
 ## Comments
 Autenticacion basada en firebase Auth
+
 la aplicacion fue probada con un emulador de iPhone 11 con iOS 15.5
+
 ## USERS
 Usuerio y contraseña Login
 - User
