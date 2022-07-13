@@ -26,10 +26,11 @@ class MovieService{
             print("Error \(String(describing: error))")
             
             let jsonDecoder = JSONDecoder()
-            let responseModel = try? jsonDecoder.decode(MovieModel.self, from: data!)
             
-            let resultMovie = responseModel?.results
-            completion(.success(resultMovie!))
+            let responseModel = try? jsonDecoder.decode(MovieModel.self, from: data ?? Data())
+            
+            guard let resultMovie = responseModel?.results else {return completion(.failure(.noData))}
+            completion(.success(resultMovie))
             
             
         }.resume()
@@ -50,8 +51,8 @@ class MovieService{
             let responseModel = try? jsonDecoder.decode(MovieDetailModel.self, from: data!)
             
             let resultMovie = responseModel
-            completion(.success(resultMovie!))
-            
+            guard let resultMovie = responseModel else {return completion(.failure(.noData))}
+            completion(.success(resultMovie))
             
         }.resume()
         

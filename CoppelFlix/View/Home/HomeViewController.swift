@@ -16,7 +16,9 @@ protocol ViewToastDelegate: NSObjectProtocol{
 
 class HomeViewController: UIViewController, HomeViewDelegate, ViewToastDelegate{
     func showToast(msj: String) {
-        self.view.showToast(toastMessage: msj, duration: 1.1)
+        DispatchQueue.main.async {
+            self.view.showToast(toastMessage: msj, duration: 1.1)
+        }
     }
     
     @IBOutlet weak var collectionView: UICollectionView!
@@ -32,7 +34,7 @@ class HomeViewController: UIViewController, HomeViewDelegate, ViewToastDelegate{
         super.viewDidLoad()
         self.navigationController?.navigationBar.backgroundColor = .gray
         self.title = "TV Shows"
-        self.homePresenter.setViewDelegate(delegate: self)
+        self.homePresenter.setViewDelegate(delegate: self, toastDelegate: self)
         
         config()
     }
@@ -108,7 +110,7 @@ extension HomeViewController : UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let storyboard = UIStoryboard(name: "HomeStoryboard", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "DetailMovie") as! DetailMovieViewController
-        vc.movieId = movies[indexPath.row].id.description
+        vc.movieId = movies[indexPath.row].id?.description ?? ""
         navigationController?.pushViewController(vc,animated: true)
     }
 }

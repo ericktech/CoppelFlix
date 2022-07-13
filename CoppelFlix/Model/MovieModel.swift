@@ -1,20 +1,19 @@
-//
-//  MovieService.swift
-//  CoppelFlix
 
 import Foundation
+
+// MARK: - Welcome
 class MovieModel: Codable {
-    let page: Int
-    let results: [ResultMovie]
-    let totalPages, totalResults: Int
-    
+    var page: Int?
+    var results: [ResultMovie]?
+    var totalPages, totalResults: Int?
+
     enum CodingKeys: String, CodingKey {
         case page, results
         case totalPages = "total_pages"
         case totalResults = "total_results"
     }
-    
-    init(page: Int, results: [ResultMovie], totalPages: Int, totalResults: Int) {
+
+    init(page: Int?, results: [ResultMovie]?, totalPages: Int?, totalResults: Int?) {
         self.page = page
         self.results = results
         self.totalPages = totalPages
@@ -23,21 +22,18 @@ class MovieModel: Codable {
 }
 
 class ResultMovie: Codable {
-    var adult: Bool = false
-    var backdropPath: String = ""
-    var genreIDS: [Int] = []
-    var id: Int = 0
+    var adult: Bool?
+    var backdropPath: String?
+    var genreIDS: [Int]?
+    var id: Int?
     var originalLanguage: OriginalLanguage?
-    var originalTitle: String = ""
-    var overview: String = ""
-    var popularity: Double = 0.0
-    var posterPath : String = ""
-    var releaseDate: String = ""
-    var title: String = ""
-    var video: Bool = false
-    var voteAverage: Double = 0.0
-    var voteCount: Int = 0
-    
+    var originalTitle, overview: String?
+    var popularity: Double?
+    var posterPath, releaseDate, title: String?
+    var video: Bool?
+    var voteAverage: Double?
+    var voteCount: Int?
+
     enum CodingKeys: String, CodingKey {
         case adult
         case backdropPath = "backdrop_path"
@@ -53,8 +49,7 @@ class ResultMovie: Codable {
         case voteCount = "vote_count"
     }
     init(){}
-    
-    init(adult: Bool, backdropPath: String, genreIDS: [Int], id: Int, originalLanguage: OriginalLanguage, originalTitle: String, overview: String, popularity: Double, posterPath: String, releaseDate: String, title: String, video: Bool, voteAverage: Double, voteCount: Int) {
+    init(adult: Bool?, backdropPath: String?, genreIDS: [Int]?, id: Int?, originalLanguage: OriginalLanguage?, originalTitle: String?, overview: String?, popularity: Double?, posterPath: String?, releaseDate: String?, title: String?, video: Bool?, voteAverage: Double?, voteCount: Int?) {
         self.adult = adult
         self.backdropPath = backdropPath
         self.genreIDS = genreIDS
@@ -75,6 +70,7 @@ class ResultMovie: Codable {
 enum OriginalLanguage: String, Codable {
     case en = "en"
     case es = "es"
+    case ja = "ja"
 }
 
 class MovieDetailModel: Codable {

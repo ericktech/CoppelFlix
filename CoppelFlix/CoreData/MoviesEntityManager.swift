@@ -29,8 +29,8 @@ class MovieEntityManager {
         movieContext.overview = movie.overview
         movieContext.posterPath = movie.posterPath
         movieContext.releaseDate = movie.releaseDate
-        movieContext.voteAverage = movie.voteAverage
-        movieContext.idMovie = movie.id.description
+        movieContext.voteAverage = movie.voteAverage ?? 0.0
+        movieContext.idMovie = movie.id?.description
         do {
             try context.save()
         }catch{}

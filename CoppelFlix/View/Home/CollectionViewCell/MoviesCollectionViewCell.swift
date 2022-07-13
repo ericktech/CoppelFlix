@@ -36,9 +36,9 @@ class MoviesCollectionViewCell: UICollectionViewCell {
         self.resultMov = movie
         lblTitle.text = movie.title
         lblDate.text = movie.releaseDate
-        lblRank.text = movie.voteAverage.description
+        lblRank.text = movie.voteAverage?.description
         lblDescrp.text = movie.overview
-        imgView.loadFrom(URLAddress: "\(imagePath)\(movie.posterPath)")
+        imgView.loadFrom(URLAddress: imagePath + (movie.posterPath?.description ?? ""))
     }
     
     
